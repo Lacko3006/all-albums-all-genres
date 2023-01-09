@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const artistRoutes = require("./artistRoutes");
+const artistRoutes = require("./artist-route");
 
 router.use("/artist", artistRoutes);
 

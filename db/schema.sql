@@ -1,3 +1,3 @@
-DROP DATABASE IF EXSISTS albumreview_db;
+DROP DATABASE IF EXISTS albumreview_db;
 
 CREATE DATABASE albumreview_db;
