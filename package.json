@@ -1,0 +1,29 @@
+{
+  "name": "all-albums-all-genres",
+  "version": "1.0.0",
+  "description": "Album review application",
+  "main": "server.js",
+  "scripts": {
+    "test": "n/a",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lacko3006/all-albums-all-genres.git"
+  },
+  "keywords": [
+    "album"
+  ],
+  "author": "Sam Laxton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lacko3006/all-albums-all-genres/issues"
+  },
+  "homepage": "https://github.com/Lacko3006/all-albums-all-genres#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.28.0"
+  }
+}
