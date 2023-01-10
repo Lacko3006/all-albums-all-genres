@@ -13,6 +13,7 @@ Artist.init(
     },
     artist_name: {
       type: DataTypes.STRING,
+      primaryKey: true,
       allowNull: false,
     },
   },
