@@ -16,6 +16,14 @@ Album.init(
     primaryKey: true,
     allowNull: false,
   },
+  artist_id: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+        model: "Artist",
+        key: "id",
+      },
+  },
   producer_name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -23,6 +31,10 @@ Album.init(
   album_name: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  album_review: {
+    type: DataTypes.STRING,
+    allowNull: true,
   },
 },
   {
