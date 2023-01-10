@@ -3,7 +3,8 @@ const sequelize = require("../config/connection");
 
 class Album extends Model {}
 
-Album.init({
+Album.init(
+    {
   id: {
     type: DataTypes.INTEGER,
     allowNull: false,
@@ -14,6 +15,23 @@ Album.init({
     type: DataTypes.STRING,
     primaryKey: true,
     allowNull: false,
-    
-  }
-});
+  },
+  producer_name: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  album_name: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+},
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "Album",
+  },
+);
+
+module.exports = Album
