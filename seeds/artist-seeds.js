@@ -11,7 +11,7 @@ const artistData = [
 ];
 
 const seedArtists = async () => {
-    await sequelize.sync({ force: true })
+    await sequelize.sync({ force: false })
     const artists = await Artist.bulkCreate(artistData)};
 
 seedArtists();

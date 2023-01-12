@@ -11,4 +11,14 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.post("/review", async (req, res) => {
+  try {
+    const reviewGet = await Album.findOne({ where: { id: 1} });
+    res.status(200).json(reviewGet);
+    console.log(reviewGet + "dammit");
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router
