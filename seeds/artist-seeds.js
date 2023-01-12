@@ -11,9 +11,6 @@ const artistData = [
 ];
 
 const seedArtists = async () => {
-    await sequelize.sync({ force: false })
     const artists = await Artist.bulkCreate(artistData)};
-
-seedArtists();
 
 module.exports = seedArtists;

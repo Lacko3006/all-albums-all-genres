@@ -17,11 +17,7 @@ const albumData = [
 
 const seedAlbums = async () => {
   console.log(albumData);
-  await sequelize.sync({ force: false });
   const albums = await Album.bulkCreate(albumData);
-
 };
-
-seedAlbums();
 
 module.exports = seedAlbums;
