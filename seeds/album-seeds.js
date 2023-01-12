@@ -9,7 +9,7 @@ const albumData = [
 
     artist_id: 1,
 
-    producer_name: "Sam Laxton",
+    producer_name: "40 Boi-1da",
 
     album_name: "Nothing was the same",
   },
