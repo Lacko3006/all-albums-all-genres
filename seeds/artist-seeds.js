@@ -3,9 +3,11 @@ const Artist = require("../models/Artist.js");
 
 const artistData = [
   {
+    id:1,
     artist_name: "Kendrick Lamar",
   },
   {
+    id:2,
     artist_name: "Drake",
   },
 ];
