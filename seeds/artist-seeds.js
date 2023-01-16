@@ -319,12 +319,7 @@ const artistData = [
     artist_name: "Billy Currington",
     genre: "Country",
   },
-  {
-    artist_name: "Billy Fury",
-    genre: "Metal, Pop",
-    album: "A Thousand Stars: The Best Of",
-    album_year: "2014",
-  },
+
   {
     artist_name: "Billy Preston",
     genre: "R&B/ Soul, Gospel",
@@ -770,6 +765,8 @@ const artistData = [
   {
     artist_name: "Drake",
     genre: "Alternative/ Indie, Hip-Hop/ Rap",
+    album: "Nothing Was The Same",
+    album_year: "2013",
   },
   {
     artist_name: "Duke Ellington",
