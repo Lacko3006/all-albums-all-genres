@@ -6,10 +6,11 @@
     <ol>
       {{#each dbArtistData as |artist|}}
       <li>
-      {{artist.artist_name}}
+     <a href="/artist/{{artist.id}}">{{artist.artist_name}}</a>
       </li>
       {{/each}}
     </ol>
+    
 </div>
 </section>
 

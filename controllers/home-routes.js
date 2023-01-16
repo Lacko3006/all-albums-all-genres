@@ -14,8 +14,9 @@ router.get("/artist", async (req, res) => {
   try {
     const dbArtistData = await Artist.findAll({ raw: true });
     res.render("artist", {
-      dbArtistData,
+      dbArtistData
     });
+
     console.log(dbArtistData)
   } catch (err) {
     console.log(err);
@@ -37,16 +38,21 @@ router.get("/album", async (req, res) => {
 });
 
 
-
 router.get("/artist/:id", async (req, res) => {
   try {
     const dbArtistData = await Artist.findByPk(req.params.id, {raw: true});
-    // const artistData = dbArtistData.get({ plain: true });
-    res.render("artist", { dbArtistData});
+    const dbAlbumData=await Album.findByPk(req.params.id,{raw:true})
+
+    //console.log(dbArtistData)
+    console.log(dbAlbumData)
+    res.render("artist_detail", { dbArtistData, dbAlbumData});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
+    
   }
+
+
 });
 
 module.exports = router;
