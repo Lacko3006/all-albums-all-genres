@@ -35,6 +35,10 @@ Album.init(
       type: DataTypes.STRING,
       allowNull: true,
     },
+    album_year: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     genre: {
       type: DataTypes.STRING,
       allowNull: true,
@@ -96,6 +100,26 @@ Album.init(
       allowNull: true,
     },
     song_15: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_16: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_17: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_18: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_19: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_20: {
       type: DataTypes.INTEGER,
       allowNull: true,
     },
