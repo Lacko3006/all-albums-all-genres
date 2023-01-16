@@ -21,8 +21,6 @@ Album.init({
     references: {
       model: "Artist",
       key: "id",
-    },
-  },
   producer_name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -103,6 +101,26 @@ Album.init({
     type: DataTypes.INTEGER,
     allowNull: true,
   },
+  song_16: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_17: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_18: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_19: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    song_20: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      },
   sequelize,
   timestamps: false,
   freezeTableName: true,
