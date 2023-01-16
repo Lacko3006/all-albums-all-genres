@@ -1,17 +1,18 @@
 <h1>Artist</h1>
 
-  <div>
-    <p>
-      ID:
-      {{artistData.id}}
-    </p>
-    <br>
-    <p>
-      Artist Name:
-      {{artistData.artist_name}}
-    </p>
+<section class="artists">
+
+  <div class="artist-name">
+    <ol>
+      {{#each dbArtistData as |artist|}}
+      <li>
+      {{artist.artist_name}}
+      </li>
+      {{/each}}
+    </ol>
 </div>
+</section>
 
 
 
-<script src="/artist.js"></script>
+{{!-- <script src="/artist.js"></script> --}}
