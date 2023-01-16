@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Artist = require("../../models/Artist.js");
-// create model for artist
+
 
 router.get("/", async (req, res) => {
   try {
