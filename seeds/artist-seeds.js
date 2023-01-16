@@ -276,11 +276,11 @@ const artistData = [
     genre: "Folk",
   },
   {
-    artist_name: " Big Country",
+    artist_name: "Big Country",
     genre: "Hip-Hop/ Rap, Rock",
   },
   {
-    artistData: "Big Star",
+    artist_name: "Big Star",
     genre: "Afroswing",
   },
   {
@@ -429,7 +429,7 @@ const artistData = [
     genre: "Pop, Rock",
   },
   {
-    artistData: "Burning Spear",
+    artist_name: "Burning Spear",
     genre: "Reggae",
   },
   {
@@ -1636,7 +1636,7 @@ const artistData = [
     album_year: "2020",
   },
   {
-    artist_name: "Land Del Ray",
+    artist_name: "Lana Del Ray",
     genre: "Indie Rock",
     album: "Norman Fucking Rockwell! [explicit]",
     album_year: "2019",

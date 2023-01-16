@@ -806,7 +806,7 @@ const albumData = [
     album_year: "2020",
   },
   {
-    artist_name: "Land Del Ray",
+    artist_name: "Lana Del Ray",
     genre: "Indie Rock",
     album: "Norman Fucking Rockwell! [explicit]",
     album_year: "2019",
