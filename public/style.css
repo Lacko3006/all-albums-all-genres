@@ -1,6 +1,7 @@
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 body {
   background-color: #121212;
@@ -153,10 +154,7 @@ body {
   justify-content: left;
   /*   text-align: center; */
 }
-#hero .info {
-  position: relative;
-  left: 300px;
-}
+
 #hero .info h1 {
   font-size: 3rem;
   /* text-transform: uppercase; */
@@ -179,6 +177,10 @@ body {
   padding: 0.5em 2em;
   margin-top: 2rem;
   color: black;
+}
+
+.artists {
+  color: white;
 }
 
 .artists {
