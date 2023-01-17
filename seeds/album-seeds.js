@@ -152,7 +152,7 @@ const albumData = [
     song_19: "Love Is a Losing Game (Original Demo)",
   },
   {
-    artist_id: 15, 
+    artist_id: 15,
     artist_name: "Ariana Grande",
     genre: "Pop",
     album: "Positions [explicit]",

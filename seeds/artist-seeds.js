@@ -15,7 +15,7 @@ const artistData = [
     artist_name: "30 Seconds To Mars",
   },
   {
-    id: 4, 
+    id: 4,
     artist_name: "A Thousand Horses",
   },
   {
@@ -137,9 +137,11 @@ const artistData = [
   },
   {
     artist_name: "Big Country",
+    genre: "Hip-Hop/ Rap, Rock",
   },
   {
     artist_name: "Big Star",
+    genre: "Afroswing",
   },
   {
     artist_name: "Bill Evans",
@@ -235,6 +237,7 @@ const artistData = [
   },
   {
     artist_name: "Burning Spear",
+    genre: "Reggae",
   },
   {
     artist_name: "Burt Bacharach",
@@ -896,6 +899,9 @@ const artistData = [
   },
   {
     artist_name: "Lana Del Ray",
+    genre: "Indie Rock",
+    album: "Norman Fucking Rockwell! [explicit]",
+    album_year: "2019",
   },
   {
     artist_name: "Laura Marling",
@@ -1716,4 +1722,4 @@ const seedArtists = async () => {
   const artists = await Artist.bulkCreate(artistData);
 };
 
-module.exports = seedArtists
+module.exports = seedArtists;
