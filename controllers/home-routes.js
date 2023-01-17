@@ -67,9 +67,12 @@ router.get("/album/:id", async (req, res) => {
 
 router.get("/artist/:id", async (req, res) => {
   try {
-    const dbArtistData = await Artist.findByPk(req.params.id, { raw: true });
+    const dbArtistData = await Artist.findByPk(req.params.id, { raw: true,
+    include: [{
+      model: Album,
+    }] });
     // const artistData = dbArtistData.get({ plain: true });
-    res.render("artist", { dbArtistData });
+    res.render("artist_detail", { dbArtistData });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
