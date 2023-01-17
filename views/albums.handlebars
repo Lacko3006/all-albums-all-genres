@@ -1,0 +1,10 @@
+<h1>Albums</h1>
+
+<section class="album">
+  {{#each dbAlbumData as |album|}}
+  <div class="album-details">
+    <a href="/album/{{album.id}}"></a><h3>{{album.album}}</h3>
+    <p>By: {{album.artist_name}}</p>
+  </div>
+    {{/each}}
+</section>
