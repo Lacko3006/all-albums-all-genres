@@ -12,19 +12,7 @@ router.get("/login", async (req, res) => {
 });
 
 router.get("/loggedIn", async (req, res) => {
-  try {
-    const dbSignUpData = await User.findOne({
-      raw: true,
-      order: [["id", "DESC"]],
-    });
-    res.render("loggedIn", {
-      dbSignUpData,
-    });
-    console.log(dbSignUpData.name);
-  } catch (err) {
-    console.log(err);
-    res.status(500).json(err);
-  }
+  res.render("loggedIn");
 });
 
 router.get("/artist", async (req, res) => {
@@ -57,13 +45,12 @@ router.get("/album", async (req, res) => {
 router.get("/album/:id", async (req, res) => {
   try {
     const dbAlbumData = await Album.findByPk(req.params.id, { raw: true });
-    // const artistData = dbArtistData.get({ plain: true });
     res.render("review", { dbAlbumData });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
   }
-});
+});                                                                                                                                                                                                                       
 
 router.get("/artist/:id", async (req, res) => {
   try {
