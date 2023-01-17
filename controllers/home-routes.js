@@ -60,7 +60,9 @@ router.get("/artist/:id", async (req, res) => {
     }] });
     // const artistData = dbArtistData.get({ plain: true });
     res.render("artist_detail", { dbArtistData });
-  } catch (err) {
+  } 
+  
+  catch (err) {
     console.log(err);
     res.status(500).json(err);
     
