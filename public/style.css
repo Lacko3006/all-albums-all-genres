@@ -186,26 +186,26 @@ body {
 }
 
 .homepage {
-    padding-left: 300px;
-  }
-  
-  .album {
-    padding: 20px;
-  }
-  
-  .album-details {
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    padding: 5px;
-  }
-  
-  .col-md-6 {
-    color: white;
-  }
-  
-  .logged-in {
-      padding: 40px;
-      justify-content: space-between;
-      color: white;
-  }
+  padding-left: 300px;
+}
+
+.album {
+  padding: 20px;
+}
+
+.album-details {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.col-md-6 {
+  color: white;
+}
+
+.logged-in {
+  padding: 40px;
+  justify-content: space-between;
+  color: white;
+}
