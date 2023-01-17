@@ -187,3 +187,10 @@ body{
     color: black;
   }
   
+  .artists {
+    color: white;
+  }
+
+  .homepage {
+    padding-left: 200px;
+  }
