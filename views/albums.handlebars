@@ -3,7 +3,7 @@
 <section class="album">
   {{#each dbAlbumData as |album|}}
   <div class="album-details">
-    <h3>{{album.album}}</h3>
+    <a href="/album/{{album.id}}"></a><a href="/album/{{album.id}}">{{album.album}}</a>
     <p>By: {{album.artist_name}}</p>
   </div>
     {{/each}}
