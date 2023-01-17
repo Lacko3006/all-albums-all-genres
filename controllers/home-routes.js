@@ -1,6 +1,4 @@
-const Artist = require("../models/Artist");
-const Album = require("../models/Album");
-const User = require("../models/user");
+const { Album, Artist } = require("../models")
 const router = require("express").Router();
 
 router.get("/", async (req, res) => {
@@ -50,22 +48,25 @@ router.get("/album/:id", async (req, res) => {
     console.log(err);
     res.status(500).json(err);
   }
-});                                                                                                                                                                                                                       
+});
 
 router.get("/artist/:id", async (req, res) => {
   try {
-    const dbArtistData = await Artist.findByPk(req.params.id, { raw: true,
-    include: [{
-      model: Album,
-    }] });
-    // const artistData = dbArtistData.get({ plain: true });
-    res.render("artist_detail", { dbArtistData });
-  } 
-  
+    const dbArtistDataResponse = await Artist.findByPk(req.params.id, {
+      include: [{
+        model: Album,
+      }]
+    });
+    const dbArtistData = dbArtistDataResponse.dataValues;
+    // The following is the magic line:
+    dbArtistData.albums = dbArtistData.Albums.map(it => it.dataValues)
+    res.render("artist_detail", dbArtistData);
+  }
+
   catch (err) {
     console.log(err);
     res.status(500).json(err);
-    
+
   }
 
 

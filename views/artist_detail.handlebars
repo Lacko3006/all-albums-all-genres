@@ -6,8 +6,10 @@
     
 
       
-     <h2>Artist Name: {{dbArtistData.artist_name}}</h2>
-     <h2>Artist's Album: {{dbAlbumData.album_name}}</h2>
+     <h2>Artist Name: {{artist_name}}</h2>
+     {{#each albums}}
+       <h2>Album: {{this.album}}</h2>
+     {{/each}}
       
   
     
