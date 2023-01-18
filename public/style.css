@@ -313,13 +313,14 @@ section .album h1 {
 
 .wrapper {
   position: relative;
+  left: 300px;
   max-width: 470px;
   width: 100%;
   border-radius: 12px;
   padding: 20px
     30px
     120px;
-  background: #4070f4;
+  background: #000;
   box-shadow: 0
     5px
     10px
@@ -450,7 +451,7 @@ form
 }
 .form.login
   input[type="submit"] {
-  background: #4070f4;
+  background: #24ff0b;
   color: #fff;
   border: none;
 }
