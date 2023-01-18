@@ -24,6 +24,7 @@ Rhythm Rater is a website that contains music searching and comment function. On
 - Mohamud Sheeq
 - Faiz Ahmed
 - Zayd Said
+- Yousuf Saleh
 <br>
 <br>
 
@@ -38,6 +39,9 @@ Rhythm Rater is a website that contains music searching and comment function. On
 5. Adding your review in the input box and click the submit button to leave your review
 <br>
 <br>
+
+## Link
+https://shrouded-woodland-67381.herokuapp.com/
 
 ## **License**
 N/A
