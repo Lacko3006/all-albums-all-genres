@@ -31,6 +31,7 @@ Rhythm Rater is a website that contains music searching and comment function. On
 ## **User Guide:**
 1. Click the search button on the side Bar to search the song / album
 <br>
+
  ![Cap02](/Screen_Cap/Cap02_Search01.jpg)
 
 2. Type in the name of the album/ singer you want.
