@@ -10,7 +10,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.post("/review", async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const reviewGet = await Album.findOne({ where: { id: 1 } });
 
@@ -22,8 +22,6 @@ router.post("/review", async (req, res) => {
     );
 
     res.status(200).json(reviewGet);
-
-    console.log(req.body);
   } catch (err) {
     res.status(500).json(err);
   }

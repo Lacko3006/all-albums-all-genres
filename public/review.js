@@ -2,7 +2,7 @@ submitEventHandler = async (e) => {
   e.preventDefault();
   const review = document.getElementById("review-text").value;
 
-  const response = await fetch("api/album/review", {
+  const response = await fetch("/api/album", {
     method: "POST",
     body: JSON.stringify({ review }),
     headers: { "Content-Type": "application/json" },
