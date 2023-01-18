@@ -5,6 +5,10 @@ router.get("/", async (req, res) => {
   res.render("homepage");
 });
 
+router.get("/profile", async (req, res) => {
+  res.render("profile");
+});
+
 router.get("/login", async (req, res) => {
   res.render("login");
 });
@@ -68,5 +72,7 @@ router.get("/artist/:id", async (req, res) => {
 
 
 });
+
+
 
 module.exports = router;
