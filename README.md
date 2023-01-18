@@ -1,8 +1,8 @@
-# **Rhythm Rater -- Searching Music and Comment your Favourite**
+# **Rhythm Rater -- Searching Music and Comment your Favorite**
 
 
 ## **Description:**
-Rhythm Rater is a website that contains music searching and comment funcion. Once loged in to your account, you are able to search your favourite musi and comment it below.
+Rhythm Rater is a website that contains music searching and comment function. Once logged in to your account, you are able to search your favorite music and comment it below.
 <br>
 
 ![Cap01_Main_Page](/Screen_Cap/Cap01_Main_Page.PNG)
@@ -16,7 +16,8 @@ Rhythm Rater is a website that contains music searching and comment funcion. Onc
 - [License](#license)
 <br>
 <br>
-## **Contribution**
+
+## **Contribution:**
 - Sam Laxton
 - Charlie Nunn
 - Yat Long (Timothy) Lau
