@@ -1,13 +1,16 @@
-<h1>Artist</h1>
+
 
 <section class="artists">
 
+ 
+
   <div class="artist-name">
+    <h1>Artist</h1>
     <ol>
       {{#each dbArtistData as |artist|}}
-      <li>
+      <li><span>
      <a href="/artist/{{artist.id}}">{{artist.artist_name}}</a>
-      </li>
+      </span></li>
       {{/each}}
     </ol>
     
@@ -16,4 +19,4 @@
 
 
 
-{{!-- <script src="/artist.js"></script> --}}
+<script src="/artist.js"></script>
