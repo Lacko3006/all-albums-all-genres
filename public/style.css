@@ -59,7 +59,7 @@ body {
 
 .main-container {
   margin-left: 245px;
-  margin-bottom: 100px;
+ 
 }
 
 .topbar {
@@ -152,7 +152,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
-  /*   text-align: center; */
+  
 }
 
 #hero .info h1 {
@@ -188,7 +188,7 @@ body {
 }
 
 .homepage {
-  padding-left: 300px;
+  padding-left: 190px;
 }
 
 .album {
