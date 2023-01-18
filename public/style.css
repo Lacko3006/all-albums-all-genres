@@ -287,9 +287,11 @@ section .album h1 {
 }
 
 .logged-in {
-  padding: 40px;
-  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
   color: white;
+  font-size: 50px;
 }
 
 .album-name-review {
@@ -579,4 +581,11 @@ form .btn button{
 }
 form .btn button:hover{
   background: #1b1b1b;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
 }
