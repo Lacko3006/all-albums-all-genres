@@ -23,6 +23,11 @@ body {
   width: 130px;
 }
 
+marquee {
+  height: 200px;
+  
+}
+
 .sidebarz .navz ul {
   list-style: none;
   margin-top: 20px;
