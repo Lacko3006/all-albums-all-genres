@@ -464,39 +464,31 @@ form
 }
    
 
-.card h1, p { 
+.card-6 h1, p { 
   position: relative;
-  left: 150px;
+  
   color: white;
 }
 
 
 
-.card-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 170px;
-  object-fit: cover;
-}
-
 .card-content {
-  padding: 3rem;
+  padding: 10px;
 }
 
 .card-header {
   font-size: 3rem;
   font-weight: 500;
   color: #0d0d0d;
-  margin-bottom: 1.5rem;
+  
 }
 
 .card-text {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
-  line-height: 1.7;
+  
   color: #3d3d3d;
-  margin-bottom: 2.5rem;
+  
 }
 
 .card-btn {
@@ -529,21 +521,11 @@ form
   margin-left: 1.5rem;
 }
 
-@media only screen and (max-width: 60em) {
-  body {
-    padding: 3rem;
-  }
-
-  .grid {
-    grid-gap: 3rem;
-  }
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 
 .container-6{
   position: relative;
+  left: 300px;
 }
 
 .container-6 .card-6{
@@ -572,7 +554,7 @@ form
 }
 
 .container-6 .card-6:after{
-  content: 'RR';
+  content: '';
   position: absolute;
   top: 30%;
   left: -20%;
