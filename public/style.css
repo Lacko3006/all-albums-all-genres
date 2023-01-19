@@ -708,8 +708,7 @@ form
 
 
 .container-4{
-  position: relative;
-  left: 350px;
+  margin: auto;
   width: 400px;
   background: #111;
   padding: 20px 30px;
@@ -837,4 +836,9 @@ form .btn button:hover{
   justify-content: center;
   color: white;
   font-size: 50px;
+}
+
+.review {
+  text-align: center;
+  margin-top: 50px;
 }
