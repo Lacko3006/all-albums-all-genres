@@ -6,7 +6,7 @@ const albumData = [
     artist_id: 1,
     artist_name: "50 Cent",
     genre: "Hip-Hop/ Rap",
-    album: "Get Rich or Die Tyrin",
+    album: "Get Rich or Die Trying",
     album_year: "2003",
     song_1: "Intro",
     song_2: "What Up Gangsta [explicit]",

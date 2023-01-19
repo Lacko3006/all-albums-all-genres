@@ -12,13 +12,13 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
   try {
-    const reviewGet = await Album.findOne({ where: { id: 1 } });
+    const reviewGet = await Album.findAll();
 
     Album.update(
       {
         album_review: req.body.review,
       },
-      { where: { id: 1 } }
+      { where: { id: req.body.id } }
     );
 
     res.status(200).json(reviewGet);

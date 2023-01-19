@@ -47,7 +47,7 @@ router.get("/album", async (req, res) => {
 router.get("/album/:id", async (req, res) => {
   try {
     const dbAlbumData = await Album.findByPk(req.params.id, { raw: true });
-    res.render("review", { dbAlbumData });
+    res.render("review", { dbAlbumData, id: req.params.id });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
